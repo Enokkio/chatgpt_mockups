@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Page1 from './pages/Page1.js';
 import Page2 from './pages/Page2.js';
+import Page3 from './pages/Page3.js';
+
 
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
   const pages = {
     '1': <Page1 />,
     '2': <Page2 />,
+    '3': <Page3 />,
+
 
     
   };
